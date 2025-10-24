@@ -1,0 +1,36 @@
+nav {
+  margin: 0 auto;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
+}
+
+.nav-item {
+    list-style: none;
+    cursor: pointer;
+    padding: 8px 16px;
+    color: #a1a1aa;
+    position: relative;
+    user-select: none;
+    z-index: 1;
+}
+
+.nav-item.active,
+.nav-item:hover {
+  color: #fff;
+}
+
+.highlight {
+  position: absolute;
+  background-color: #27272a;
+  border-radius: 50px;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
